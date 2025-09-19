@@ -2,22 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css" />
   <title>Frontend Mentor | Fylo data storage component</title>
 
 </head>
-<body>
+<body class="bg-image">
 
-  You’ve used 815 GB of your storage
+  <main class="fylo-data-grid">
+    <section class="fylo-container">
+      <div class="fylo-icon"></div>
+      <div class="icons-container">
+        <div class="file-icon"></div>
+        <div class="folder-icon"></div>
+        <div class="upload-icon"></div>
+      </div>
+    </section>
 
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+    <section class="storage-container">
+      <div class="storage-text">
+        You’ve used 815 GB of your storage
+      </div>
+      <div class="floating-gb-left">
+        185 GB Left
+      </div>
+      <div class="bar-and-markers">
+        <div class="outer-bar">
+          <div class="inner-bar">
+            <div class="circle-pointer"></div>
+          </div>
+        </div>
+        <div class="markers">
+          0 GB
+          1000 GB
+        </div>
+      </div>
+    </section>
+
+  </main>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Hannalysis">Hannalysis</a>.
