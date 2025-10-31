@@ -16,6 +16,57 @@ body {
     min-height: 100vh;
 }
 
+/* --- Fylo Container --- */
+
+.fylo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons-container {
+    display: flex;
+    gap: 4%;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-navy);
+    border-color: var(--dark-navy);
+    border-style: solid;
+    border-radius: 8px;
+    height: 40px;
+    width: 40px;
+}
+
+.fylo-icon {
+    background-image: url('./images/logo.svg');
+    height: 2.5rem;
+}
+
+.file-icon {
+    background-image: url('./images/icon-document.svg');
+    height: 25px;
+    width: 20px;
+}
+
+.folder-icon {
+    background-image: url('./images/icon-folder.svg');
+    height: 22px;
+    width: 25px;
+}
+
+.upload-icon {
+    background-image: url('./images/icon-upload.svg');
+    height: 18px;
+    width: 24px;
+}
+
+.fylo-icon, .file-icon, .folder-icon, .upload-icon {
+    background-repeat: no-repeat;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
