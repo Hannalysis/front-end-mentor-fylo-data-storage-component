@@ -8,7 +8,7 @@
 
 body {
     font-family: var(--raleway-font);
-    margin: 25% 8%;
+    margin: 50% 6%;
 }
 
 .bg-image {
@@ -72,6 +72,24 @@ body {
 
 .fylo-icon, .file-icon, .folder-icon, .upload-icon {
     background-repeat: no-repeat;
+}
+
+/* --- Storage Container --- */
+
+.storage-container {
+    display: flex;
+    flex-direction: column;
+    background: var(--deep-blue);
+    border-color: var(--deep-blue);
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: var(--light-blue);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#used-gb {
+    font-weight: bolder;
 }
 
 .attribution { font-size: 11px; text-align: center; }
