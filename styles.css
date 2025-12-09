@@ -8,13 +8,16 @@
 
 body {
     font-family: var(--raleway-font);
-    margin: 50% 6%;
+    margin: 0;
 }
 
 .bg-image {
+    display: flex;
     background-image: url('./images/bg-mobile.png');
     background-size:cover;
     min-height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
 /* --- Fylo Container --- */
