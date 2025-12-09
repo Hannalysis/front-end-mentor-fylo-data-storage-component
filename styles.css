@@ -122,8 +122,17 @@ body {
     font-size:xx-large;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 @media (min-width: 768px) {
     .bg-image {
