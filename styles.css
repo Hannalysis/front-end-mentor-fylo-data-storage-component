@@ -98,7 +98,25 @@ body {
 
 .bar-and-markers {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.outer-bar {
+    border-radius: 10px;
+    height: 20px;
+    width: 270px;
+    background-color: var(--dark-navy);
+    opacity: 0.5;
+}
+
+.inner-bar {
+    margin: 2px;
+    border-radius: 10px;
+    border: solid black 1px; 
+    height: 15px;
+    width: 200px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(350, 100%, 75%), hsl(335, 100%, 65%));
 }
 
 .markers {
@@ -117,7 +135,7 @@ body {
     padding: clamp(10px, 3%, 15px) clamp(27px, 8%, 35px);
     border-radius: 8px;
     position: absolute;
-    margin-top: 48px; /* Add at least 38px to push past the storage text widths */
+    margin-top: 70px; /* Add at least 70px to push past the storage text widths */
     display: flex;
     align-items: center;
     gap: 10px;
