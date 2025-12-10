@@ -118,6 +118,9 @@ body {
     border-radius: 8px;
     position: absolute;
     margin-top: 48px; /* Add at least 38px to push past the storage text widths */
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 #gb-left {
