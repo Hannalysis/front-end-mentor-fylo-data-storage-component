@@ -111,12 +111,23 @@ body {
 }
 
 .inner-bar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     margin: 2px;
     border-radius: 10px;
     border: solid black 1px; 
     height: 15px;
     width: 200px;
     background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(350, 100%, 75%), hsl(335, 100%, 65%));
+}
+
+.circle-pointer {
+    height: 12px;
+    width: 12px;
+    background-color: hsl(255, 100%, 100%);
+    border-radius: 50%;
+    margin: 2px;
 }
 
 .markers {
