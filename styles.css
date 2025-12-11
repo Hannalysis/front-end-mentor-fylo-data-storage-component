@@ -179,6 +179,7 @@ body {
         background-color: var(--dark-navy);
         background-image: none;
     }
+
     .bg-image::after {
         content: "";
         position: absolute;
@@ -191,4 +192,12 @@ body {
         background-size: cover;
         z-index: 0;
     }
+
+    .fylo-data-grid {
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
 }
