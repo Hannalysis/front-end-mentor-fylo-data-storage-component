@@ -92,6 +92,10 @@ body {
     padding-bottom: 2.5rem;
 }
 
+.storage-text {
+    padding-bottom: 16px;
+}
+
 #used-gb {
     font-weight: bolder;
 }
@@ -135,6 +139,7 @@ body {
     justify-content: space-between;
     flex-grow: 1;
     font-weight: bolder;
+    padding: 8px 0px;
 }
 
 .floating-gb-left {
@@ -146,7 +151,7 @@ body {
     padding: clamp(10px, 3%, 15px) clamp(27px, 8%, 35px);
     border-radius: 8px;
     position: absolute;
-    margin-top: 70px; /* Add at least 70px to push past the storage text widths */
+    margin-top: 90px; /* Adjust this to push past the storage text widths */
     display: flex;
     align-items: center;
     gap: 10px;
