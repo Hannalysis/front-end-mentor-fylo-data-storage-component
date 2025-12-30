@@ -216,7 +216,8 @@ body {
         color: var(--light-blue);
         text-align: left;
         width: 450px;
-}
+        padding-bottom: 1.5rem;
+    }
 
     .floating-gb-left {
         align-self: center;
