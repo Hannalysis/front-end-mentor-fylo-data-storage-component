@@ -228,5 +228,15 @@ body {
         display: flex;
         align-items: center;
         gap: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    .floating-gb-left::after {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+        right: 0;
+        border-left: 20px solid transparent;
+        border-top: 20px solid hsl(0, 0%, 96%);
     }
 }
