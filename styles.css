@@ -148,7 +148,7 @@ body {
     font-weight: 700;
     font-size: x-small;
     background-color: var(--whitesmoke);
-    padding: clamp(10px, 3%, 15px) clamp(27px, 8%, 35px);
+    padding: clamp(10px, 3%, 12px) clamp(18px, 8%, 20px);
     border-radius: 8px;
     position: absolute;
     margin-top: 90px; /* Adjust this to push past the storage text widths */
@@ -197,13 +197,15 @@ body {
     .fylo-data-box {
         z-index: 1;
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
         align-items: end;
     }
 
     .fylo-container {
         max-width: 250px;
-        padding-right: 100px;
+        padding-right: 120px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 
     .fylo-icon {
